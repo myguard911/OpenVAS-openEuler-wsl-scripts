@@ -1,0 +1,60 @@
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+
+# Log files
+*.log
+logs/
+*.tmp
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Docker related (if any local docker files are created)
+docker-compose.override.yml
+.env.local
+.env.*.local
+
+# Windows specific
+*.lnk
+
+# Test files (if any)
+test_*.sh
+test_*.ps1
+*_test.sh
+*_test.ps1
+
+# Local configuration files
+config.local.*
+settings.local.*
+
+# Temporary directories
+tmp/
+temp/
+.tmp/
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Package manager files
+node_modules/
+*.lock
+
+# OS generated files
+.Spotlight-V100
+.Trashes
+ehthumbs.db 
